@@ -1,11 +1,11 @@
 <h1 align="center">Hi, I'm Sanjyot Amritkar 👋</h1>
 
 <h3 align="center">
-  Software Engineer building AI systems that work in production — not just in demos
+  Software Engineer building production AI/ML, and data systems for real-world problems.
 </h3>
 
 <p align="center">
-  <a href="sanjyot-amritkar-portfolio.netlify.app">Portfolio</a> ·
+  <a href="https://sanjyot-amritkar-portfolio.netlify.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/sanjyot-amritkar/">LinkedIn</a> ·
   <a href="mailto:sanjyotamritkar@gmail.com">Email</a>
 </p>
@@ -14,9 +14,9 @@
 
 ## About Me
 
-I'm an AI and software engineer with an **M.S. in Data Science from Stony Brook University**, working at the intersection of **software engineering, AI/ML, and data systems**.
+I'm a software engineer with an **M.S. in Data Science from Stony Brook University**, working at the intersection of **AI/ML, data science, and software systems**.
 
-I've built clinical AI systems at **Stony Brook Medicine**, AI-powered developer and troubleshooting tools at **Nextracker**, and enterprise backend systems at **Barclays**. My work spans LLM/RAG systems, backend APIs, data pipelines, and full-stack applications — with an emphasis on reliability and real-world deployment.
+I've built **AI-assisted clinical systems at Stony Brook Medicine**, integrated **LLM-powered workflows and retrieval systems into solar monitoring infrastructure at Nextracker**, and engineered **distributed backend and cloud systems at Barclays**. My work spans production AI, RAG and evaluation systems, machine learning, data pipelines, APIs and microservices, and full-stack software, with a focus on **reliability, scalability, and measurable real-world impact**.
 
 ---
 
@@ -45,17 +45,18 @@ I've built clinical AI systems at **Stony Brook Medicine**, AI-powered developer
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black">
 </p>
 
-### Backend & Data
+### Data & Backend
 
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white">
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white">
   <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white">
   <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white">
 </p>
 
 ### Cloud & Infrastructure
@@ -73,6 +74,7 @@ I've built clinical AI systems at **Stony Brook Medicine**, AI-powered developer
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white">
   <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white">
 </p>
@@ -81,25 +83,23 @@ I've built clinical AI systems at **Stony Brook Medicine**, AI-powered developer
 
 ## Featured Projects
 
-## Featured Projects
-
 | Project | What it does | Tech |
 |---|---|---|
+| **[EvalOps](https://github.com/SanjyotAmritkar/EvalOps)** | Continuous evaluation and release-gating platform for **LLM, RAG, and agent systems**, with distributed evaluation, statistical regression testing, and automated **PASS/BLOCK** release decisions. | FastAPI · Next.js · PostgreSQL · Redis · Celery · Docker |
 | **EDExpertAITriage** | AI-assisted emergency department triage system with adaptive patient intake, clinical retrieval, safety guardrails, and clinician-facing workflows. Improved triage accuracy by **30%** and reduced manual questioning by **40%**. | FastAPI · React · PostgreSQL · Azure OpenAI · FAISS · Docker |
-| **[MediVault](https://github.com/SanjyotAmritkar/Medivault-AI-Agent)** | Privacy-first medical claims automation pipeline that transforms unstructured clinical records into structured, claim-ready data, achieving **~85% coding accuracy**. | Python · OCR · LangChain · LLaMA · Ollama · AWS |
+| **[MediVault](https://github.com/SanjyotAmritkar/Medivault-AI-Agent)** | Privacy-first medical claims automation pipeline transforming unstructured clinical records into structured, claim-ready data, achieving **~85% coding accuracy**. | Python · OCR · LangChain · LLaMA · Ollama · AWS |
 | **E-commerce RAG Chatbot** | Full-stack conversational search system using semantic retrieval over product descriptions and customer reviews to generate context-aware responses. | FastAPI · React · SentenceTransformers · FAISS · RAG |
 | **MediRAG** | Biomedical semantic search and question-answering system combining dense retrieval with local LLM inference for scientific literature. | SentenceTransformers · FAISS · Phi-3 · Python |
-| **Fraud Detection** | Machine learning pipeline for identifying fraudulent transactions using feature engineering, classification, and model evaluation on highly imbalanced financial data. | Python · Scikit-learn · Pandas · ML· Differential Privacy |
-| **TrialMatch** | Phenotype-driven clinical trial discovery platform matching patients to relevant trials; selected as a **Harvard HackRare finalist** project. | React · Node.js · MongoDB · NLP |
----
+| **Fraud Detection** | Machine learning pipeline for detecting fraudulent transactions using feature engineering, classification, model evaluation, and privacy-aware analysis on highly imbalanced financial data. | Python · scikit-learn · Pandas · ML · Differential Privacy |
 
+---
 
 ## Let's Connect
 
-I'm interested in building solutions at the intersection of **AI, software engineering, and data systems**, particularly products solving meaningful real-world problems.
+I'm interested in building solutions at the intersection of **AI/ML, software engineering, and data systems**, particularly products solving meaningful real-world problems.
 
 <p>
-  <a href="sanjyot-amritkar-portfolio.netlify.app">Portfolio</a> ·
+  <a href="https://sanjyot-amritkar-portfolio.netlify.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/sanjyot-amritkar/">LinkedIn</a> ·
   <a href="mailto:sanjyotamritkar@gmail.com">Email</a>
 </p>
